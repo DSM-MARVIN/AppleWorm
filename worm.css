@@ -1,0 +1,121 @@
+body{
+    background-color: #333;
+    
+}
+.container{
+    text-align: center;
+    position: relative;
+    width: 85vmin;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin: auto;
+
+}
+
+.head-text{
+    font-weight: 900;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head-text .w1{
+    color: green;
+}
+.head-text .w2{
+    color: orange;
+}
+.head-text .w3{
+    color: royalblue;
+}
+.head-text .w4{
+    color: orangered;
+}
+.head-text .w5{
+    color: yellow;
+}
+.head-text .w6{
+    color: white;
+}
+.head-text .w7{
+    color: pink;
+}
+.head-text .w8{
+    color: rebeccapurple;
+}
+.head-text .w9{
+    color: violet;
+}
+
+.w10{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: coral;
+}
+
+.AplScore{
+    position: absolute;
+    right: 10px;
+}
+
+.restart{
+    /* padding: 4px; */
+    background-color: red;
+}
+
+.restart a{
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.endScore{
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.GameOver {
+display: none;
+width: 400px;
+position: absolute;
+padding-top: 50px;
+padding-bottom: 50px;
+text-align: center;
+border-radius: 5px;
+color: white;
+font-size: 2em;
+}
+
+#game-board{
+    background-color: black;
+    width: 85vmin;
+    height: 85vmin;
+    display: grid;
+    grid-template-rows: repeat(21, 1fr);
+    grid-template-columns: repeat(21, 1fr);
+}
+
+.worm {
+    background-color: coral;
+    border: .50vmin black solid;
+}
+
+.food {
+    background-image: url('./apple.png');
+    background-size: cover;
+    /* border: .25vmin black solid; */
+
+}
+
+footer{
+    position: absolute ;
+    bottom: -15pxpx;
+    left: 5px;
+    color: white;
+    font-size: 14px;
+}
