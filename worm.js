@@ -1,6 +1,6 @@
 import { getInputDirection } from "./input.js"
 
-export const WORM_SPEED = 10
+export const WORM_SPEED = 8
 const wormBody = [{ x: 11, y: 11}]
 let newSegments = 0
 
