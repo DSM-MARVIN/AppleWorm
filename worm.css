@@ -16,12 +16,15 @@ body{
 }
 
 .arrow{
-    padding-top: 10%;
-    padding-left: 35%;
+    position: absolute;
+    top: 80%;
+    /* left: 50; */
+    
 }
 
 .arrow .fa{
-    padding: 4px;
+    margin: 2px;
+    padding: 10px;
     color: tomato;
     cursor: pointer;
     border: 4px tomato solid;
