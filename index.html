@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apple worm</title>
@@ -9,7 +10,7 @@
     <link rel="shortcut icon" type="image/png" href="./gameLogo.png">
 </head>
 <body>
-    <header>
+    <header class="container-md">
         <P class="head-text">
             <span><img src="./gameLogo.png" alt="logo" width="50px"></span>
             <span class="w1">A</span>
@@ -38,7 +39,13 @@
             <span class="endScore"></span>
     <div><button class="restart"><a href="./index.html">restart <i class="fa fa-repeat"></i></a></button></div>
         </div>
-        <div id="game-board"></div>
+        <div id="game-board" class="shadow"> </div>
+        <div class="arrow">
+           <div><i class="fa fa-arrow-up up"></i></div> 
+            <i class="fa fa-arrow-left left"></i>
+            <i class="fa fa-arrow-right right"></i>
+            <i class="fa fa-arrow-down down"></i>
+        </div>
     </div>
     <script src="./p5.js"></script>
     <script src="./p5.sound.js"></script>
