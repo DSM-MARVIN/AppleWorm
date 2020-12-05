@@ -15,14 +15,32 @@ body{
 
 }
 
-.arrow{
+.arrow1{
     position: absolute;
     top: 80%;
+    left: 5%;
+    
+}
+
+.arrow1 .fa{
+    margin: 2px;
+    padding: 20px;
+    color: tomato;
+    cursor: pointer;
+    border: 4px tomato solid;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.arrow2{
+    position: absolute;
+    top: 80%;
+    left: 150%;
+
     /* left: 50; */
     
 }
 
-.arrow .fa{
+.arrow2 .fa{
     margin: 2px;
     padding: 20px;
     color: tomato;
