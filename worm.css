@@ -15,9 +15,16 @@ body{
 
 }
 
+.arrow{
+    padding-top: 10%;
+    padding-left: 35%;
+}
+
 .arrow .fa{
+    padding: 4px;
+    color: tomato;
     cursor: pointer;
-    border: 4px black solid;
+    border: 4px tomato solid;
     font-size: 20px;
     border-radius: 50%;
 }
@@ -102,8 +109,8 @@ font-size: 2em;
     width: 85vmin;
     height: 85vmin;
     display: grid;
-    grid-template-rows: repeat(18, 1fr);
-    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(21, 1fr);
+    grid-template-columns: repeat(21, 1fr);
 }
 
 .worm {
